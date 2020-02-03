@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="constant-type"
+	content="text/html"; charset="UTF-8">
+<title>Избор на курсове</title>
+</head>
+<body bgcolor=lightgreen>
+<h2>Избор на курсове</h2>
+<form name="f1" action="Zad10.php" method="post">
+
+Име на клиента:
+<input type="text" name="name" size="50"><p>
+
+Изберете форма на курса:<br>
+<select name="a">
+<option value="0">Редовно обучение</option>
+<option value="1">Задочно обучение</option>
+<option value="2">Дистанционно обучение</option>
+</select><p><br>
+
+Изберете един или повече курсове (с Ctrl/опция):<br>
+<select multiple=multiple name="b[]" size=4>
+<option value=PHP>PHP => 200 лева</option>
+<option value=HTML>HTML => 100 лева</option>
+<option value=JavaScript>JavaScript => 150 лева</option>
+<option value=Java>Java => 250 лева</option>
+</select><p><br>
+
+
+<input type="submit" value="Confirm">
+</body>
+</html>
